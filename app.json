@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/calendarindex/index",
+        "pages/clockindex/index",
+        "pages/clocklogs/logs",
+        "pages/clocksetting/setting",
+        "pages/2048/2048",
+        "pages/calendardetail/detail"
+    ],
+    "tabBar": {
+        "backgroundColor": "white",
+        "list": [
+            {
+                "pagePath": "pages/calendarindex/index",
+                "text": "代办日历",
+                "selectedIconPath": "images/todo2.png",
+                "iconPath": "images/todo1.png"
+             
+            },
+            {
+                "pagePath": "pages/clockindex/index",
+                "text": "闹钟",
+                "selectedIconPath": "images/clock2.png",
+                "iconPath": "images/clock1.png"
+               
+            },
+            {
+                "pagePath": "pages/2048/2048",
+                "text": "小游戏",
+                "selectedIconPath": "images/game2.png",
+                "iconPath": "images/game1.png"
+             
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {}
+   
+}
